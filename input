@@ -1,0 +1,41 @@
+program the_longest_variable_which_is_possible_in_Simple_Pascal_is_a_255_ASCII_symbol_Name_of_any_letters_in_both_upper_and_lower_cases_and_numbers_with_a_single_restriction_for_the_first_symbol_for_it_should_be_a_any_case_letter_Other_symbols_are_banned_to_use;
+
+var x, result: integer;
+var a, b: double;
+
+begin
+
+// the sample program
+// calculating factorial
+
+	write("hello world!");
+	write("now we will calculate a factorial!");
+	write("enter the integer argument: ");
+	
+	read(x); 
+	
+	write("the result is: ");
+	
+	if (x < 2) then
+		write(1)
+	else begin
+		result := 1;
+		while (x >= 2) do begin
+			result := result * x;
+			x := x - 1	
+		end;
+		write(result)
+	end;
+	
+	write("we can also perform operations over floats");
+	write("look, we can divide two numbers:");
+	
+	read(a, b);
+	
+	write("the result is:");
+	write(a / b);
+	
+	write("enjoy!")
+	
+end.
+
